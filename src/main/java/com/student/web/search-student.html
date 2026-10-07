@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Search Student</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🔍 Search Student</h1>
+        <p>Find student details quickly from the database</p>
+    </header>
+
+    <main>
+
+        <div class="search-card">
+
+            <div class="search-icon">
+                🔎
+            </div>
+
+            <h2>Find a Student</h2>
+
+            <p class="search-description">
+                Enter the student's name below to search for their complete details.
+            </p>
+
+            <form action="/search-student" method="GET">
+
+                <div class="search-input-group">
+
+                    <label for="studentName">
+                        Student Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="studentName"
+                        name="name"
+                        placeholder="e.g. Vartik"
+                        autocomplete="off"
+                        required>
+
+                </div>
+
+                <button type="submit" class="search-button">
+                    🔍 Search Student
+                </button>
+
+            </form>
+
+            <a href="/" class="back-link">
+                ← Back to Dashboard
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Smart Student Management System © 2026</p>
+    </footer>
+
+</body>
+
+</html>

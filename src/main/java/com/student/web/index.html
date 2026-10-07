@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub | Smart Student Management</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <div class="brand-icon">
+                🎓
+            </div>
+
+            <div>
+                <div class="brand-name">
+                    StudentHub
+                </div>
+
+                <div class="brand-subtitle">
+                    Smart Student Management System
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-text">
+
+            <h1>
+                Student Management,
+                <span>Made Simple.</span>
+            </h1>
+
+            <p>
+                Manage student records, academic information
+                and database operations from one place.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- Welcome Section -->
+
+        <section class="welcome-section">
+
+            <div>
+                <p class="small-heading">
+                    MANAGEMENT PORTAL
+                </p>
+
+                <h2>
+                    Welcome to StudentHub 👋
+                </h2>
+
+                <p class="welcome-text">
+                    Choose an operation below to manage student information.
+                </p>
+            </div>
+
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                System Online
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURE GRID ================= -->
+
+        <section class="feature-grid">
+
+
+            <!-- VIEW STUDENTS -->
+
+            <div class="feature-card blue-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        👥
+                    </div>
+
+                    <span class="feature-number">
+                        01
+                    </span>
+
+                </div>
+
+                <h3>
+                    View Students
+                </h3>
+
+                <p>
+                    View complete student records stored
+                    in the database.
+                </p>
+
+                <a href="/students" class="feature-button">
+                    View Students
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- ADD STUDENT -->
+
+            <div class="feature-card green-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        ➕
+                    </div>
+
+                    <span class="feature-number">
+                        02
+                    </span>
+
+                </div>
+
+                <h3>
+                    Add Student
+                </h3>
+
+                <p>
+                    Create a new student record and save
+                    it directly to MySQL.
+                </p>
+
+                <a href="/add-student.html" class="feature-button">
+                    Add Student
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- SEARCH -->
+
+            <div class="feature-card purple-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        🔍
+                    </div>
+
+                    <span class="feature-number">
+                        03
+                    </span>
+
+                </div>
+
+                <h3>
+                    Search Student
+                </h3>
+
+                <p>
+                    Quickly find student information
+                    using their name.
+                </p>
+
+                <a href="/search-student.html" class="feature-button">
+                    Search Student
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- UPDATE -->
+
+            <div class="feature-card orange-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        ✏️
+                    </div>
+
+                    <span class="feature-number">
+                        04
+                    </span>
+
+                </div>
+
+                <h3>
+                    Update Student
+                </h3>
+
+                <p>
+                    Modify existing student information
+                    whenever required.
+                </p>
+
+                <a href="/update-student.html" class="feature-button">
+                    Update Student
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- DELETE -->
+
+            <div class="feature-card red-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        🗑️
+                    </div>
+
+                    <span class="feature-number">
+                        05
+                    </span>
+
+                </div>
+
+                <h3>
+                    Delete Student
+                </h3>
+
+                <p>
+                    Remove an unwanted student record
+                    from the database.
+                </p>
+
+                <a href="/delete-student.html" class="feature-button">
+                    Delete Student
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- DATABASE -->
+
+            <div class="feature-card database-card">
+
+                <div class="feature-top">
+
+                    <div class="feature-icon">
+                        🗄️
+                    </div>
+
+                    <span class="feature-number">
+                        DB
+                    </span>
+
+                </div>
+
+                <h3>
+                    MySQL Database
+                </h3>
+
+                <p>
+                    Student information is securely connected
+                    with the MySQL database.
+                </p>
+
+                <div class="database-status">
+                    <span class="status-dot"></span>
+                    Database Connected
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DASHBOARD STATISTICS ================= -->
+
+        <section class="stats-section">
+
+            <div class="stats-heading">
+
+                <div>
+
+                    <p class="small-heading">
+                        DATABASE OVERVIEW
+                    </p>
+
+                    <h2>
+                        Student Statistics
+                    </h2>
+
+                </div>
+
+                <span class="live-label">
+                    ● Live Data
+                </span>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+
+                <!-- TOTAL STUDENTS -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon blue-stat">
+                        👥
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Total Students
+                        </p>
+
+                        <h3 id="totalStudents">
+                            —
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AVERAGE MARKS -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green-stat">
+                        📊
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Average Marks
+                        </p>
+
+                        <h3 id="averageMarks">
+                            —
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AVERAGE ATTENDANCE -->
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple-stat">
+                        📅
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Average Attendance
+                        </p>
+
+                        <h3 id="averageAttendance">
+                            —
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+            <strong>StudentHub</strong>
+            <span> • Smart Student Management System</span>
+        </div>
+
+        <div>
+            © 2026 StudentHub
+        </div>
+
+    </footer>
+
+
+    <!-- ================= STATISTICS SCRIPT ================= -->
+
+    <script>
+
+        async function loadStatistics() {
+
+            try {
+
+                const response = await fetch("/statistics");
+
+                if (!response.ok) {
+                    throw new Error("Unable to load statistics");
+                }
+
+                const data = await response.json();
+
+
+                document.getElementById("totalStudents").textContent =
+                    data.totalStudents;
+
+                document.getElementById("averageMarks").textContent =
+                    data.averageMarks.toFixed(2);
+
+                document.getElementById("averageAttendance").textContent =
+                    data.averageAttendance.toFixed(2) + "%";
+
+            } catch (error) {
+
+                console.error(error);
+
+                document.getElementById("totalStudents").textContent = "—";
+                document.getElementById("averageMarks").textContent = "—";
+                document.getElementById("averageAttendance").textContent = "—";
+
+            }
+
+        }
+
+
+        loadStatistics();
+
+    </script>
+
+</body>
+
+</html>

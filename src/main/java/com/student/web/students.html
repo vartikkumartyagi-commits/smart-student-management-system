@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All Students - Smart Student Management System</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header class="top-header">
+        <div>
+            <h1>👥 Student Records</h1>
+            <p>Smart Student Management System</p>
+        </div>
+
+        <a href="/" class="back-btn">← Dashboard</a>
+    </header>
+
+
+    <main class="students-page">
+
+        <div class="page-title">
+            <div>
+                <h2>All Students</h2>
+                <p>View all registered student records</p>
+            </div>
+
+            <a href="/add-student.html" class="add-btn">
+                + Add Student
+            </a>
+        </div>
+
+
+        <div class="student-table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Student</th>
+                        <th>Course</th>
+                        <th>Marks</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Semester</th>
+                        <th>Section</th>
+                        <th>DOB</th>
+                        <th>Gender</th>
+                        <th>Attendance</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentTableBody">
+
+                    <tr>
+                        <td colspan="12" class="loading">
+                            Loading students...
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Update Student</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>✏️ Update Student</h1>
+        <p>Update student information</p>
+    </header>
+
+    <main>
+
+        <div class="search-card">
+
+            <div class="search-icon">
+                ✏️
+            </div>
+
+            <h2>Update Student</h2>
+
+            <p class="search-description">
+                Enter the Student ID to find and update the student's details.
+            </p>
+
+            <form action="/update-student" method="GET">
+
+                <div class="search-input-group">
+
+                    <label for="studentId">
+                        Student ID
+                    </label>
+
+                    <input
+                        type="number"
+                        id="studentId"
+                        name="id"
+                        placeholder="Enter Student ID e.g. 5"
+                        min="1"
+                        required>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="search-button">
+
+                    ✏️ Find Student
+
+                </button>
+
+            </form>
+
+            <a
+                href="/"
+                class="back-link">
+
+                ← Back to Dashboard
+
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Smart Student Management System © 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

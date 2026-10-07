@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delete Student</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🗑️ Delete Student</h1>
+        <p>Remove a student record from the database</p>
+    </header>
+
+    <main>
+
+        <div class="search-card">
+
+            <div class="search-icon">
+                🗑️
+            </div>
+
+            <h2>Delete Student</h2>
+
+            <p class="search-description">
+                Enter the Student ID you want to delete.
+                This action cannot be undone.
+            </p>
+
+            <form
+                action="/delete-student"
+                method="POST"
+                onsubmit="return confirm('Are you sure you want to delete this student?');">
+
+                <div class="search-input-group">
+
+                    <label for="studentId">
+                        Student ID
+                    </label>
+
+                    <input
+                        type="number"
+                        id="studentId"
+                        name="id"
+                        placeholder="Enter Student ID e.g. 7"
+                        min="1"
+                        required>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="search-button">
+
+                    🗑️ Delete Student
+
+                </button>
+
+            </form>
+
+            <a
+                href="/"
+                class="back-link">
+
+                ← Back to Dashboard
+
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Smart Student Management System © 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
